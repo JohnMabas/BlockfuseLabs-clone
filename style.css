@@ -343,3 +343,183 @@ body {
     font-size: 16px;
 
 }
+
+.Testimonials {
+    color: white;
+    position: relative;
+    top: 245%;
+    /* padding: 50px; */
+    /* margin: 50px; */
+
+}
+
+.Testimonials .card-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Testimonials .card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.Testimonials .card .card-1 {
+    border: 1px solid purple;
+    width: 900%;
+    height: 440px;
+    padding: 30px;
+
+
+}
+
+.Testimonials .card .card-1 img {
+    /* text-align: center; */
+    margin-left: 100px;
+    padding: 10px;
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+    border-radius: 950px;
+}
+
+.Testimonials .card .card-1 h4, h5 {
+    /* text-align: center; */
+    margin-left: 110px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Testimonials .card .card-1  h5 {
+    /* text-align: center; */
+    margin-left: 120px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.Testimonials .card .card-1 .star {
+    padding: 20px;
+    text-align: center;
+    color: #B74FDD;
+}
+
+.Our-Partners {
+    position: relative;
+    /* color: white; */
+    top: 260%;
+    
+
+}
+
+.Our-Partners h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.Our-Partners .our-partners_img {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 50px;
+}
+
+/* next-cohort */
+
+.next-cohort {
+    position: relative;
+    top: 280%;
+    color: white;
+    text-align: center;
+
+
+}
+
+.next-cohort p {
+    padding: 20px;
+    font-size: 13px;
+    
+
+}
+
+.next-cohort h2 {
+    font-size: 30px;
+}
+
+.faqs {
+    position: relative;
+    top: 310%;
+    color: white;
+    text-align: center;
+}
+
+.faqs p {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.faqs-pq {
+    position: relative;
+    top: 306%;
+    color: white;
+    margin: 50px;
+    padding: 30px;
+}
+
+.faqs > div, .faqs1 {
+    margin-top: 30px;
+}
+
+faqs > div, a {
+    /* padding: 20px; */
+    /* margin-top: 50px; */
+    text-decoration: none;
+    color: white;
+}
+
+/* .faqs > div, .faqs-iconFlex{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+} */
+
+
+/* .faqs > div, .faqs-iconFlex i{
+  padding: 50px;
+    
+} */
+
+.Subscribe {
+    position: relative;
+    top: 310%;
+    color: white;
+    text-align: center;
+    
+}
+
+.Subscribe h2, p{
+    padding: 20px;
+
+}
+
+.Subscribe .input-sub {
+    width: 50%;
+    height: 40px;
+    text-align: start;
+    padding: 10px;
+    background-color: rgb(38, 39, 39);
+    border: 1px solid rgb(122, 126, 126);
+    color: rgb(164, 169, 173);
+    margin: 20px;
+}
+
+.Subscribe .btn-sub {
+     width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #B74FDD;
+}
