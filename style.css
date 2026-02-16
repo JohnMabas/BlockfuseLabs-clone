@@ -567,19 +567,38 @@ p {
 .joinOur-com .joinOur-logoimg {
     border: 1px solid purple;
     background: rgb(36, 35, 36);
-    border-radius: 4000%;
-    width: 150px;
+    border-radius:100%;
+    width: 100px;
     height: 60px;
-    padding: 10px;
+    /* padding: 10px; */
     /* text-align: center; */
     align-items: center;
     margin-left: 590px;
 
 }
 
-.joinOur-com .joinOur-com-imgs {
-    padding: 20px;
-    border-radius: 100%;
+.joinOur-com .joinOur-logoimg img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+}
+
+
+
+.joinOur-com .joinOur-com-imgs img {
+    width: 140px;
+    height: 100px;
+    /* padding: 20px; */
+    border: 3px solid purple;
+    box-shadow: 0 0 15px rgba(green, blue, alpha);
+    margin-top: 20px;
+    border-radius: 80%;
+    object-fit: cover;
+
+
+
+
+
 }
 
 .joinOur-com .joinOur-btn {
