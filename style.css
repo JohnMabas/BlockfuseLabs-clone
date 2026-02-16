@@ -278,7 +278,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     margin: 20px;
-   
+
 }
 
 /* our journey */
@@ -316,25 +316,27 @@ body {
     border-radius: 1000%;
 }
 
-.our-journey .our-journey_flex1 .icon-flex, .icon-flex {
+.our-journey .our-journey_flex1 .icon-flex,
+.icon-flex {
     padding: 5px;
     margin: 20px;
 }
 
-.our-journey .our-p  {
+.our-journey .our-p {
     text-align: center;
     bottom: 50px;
 
 }
 
-.our-journey .our-p p  {
+.our-journey .our-p p {
     /* text-align: center; */
     bottom: 50%;
     padding: 20px;
 
 }
 
-.our-journey .our-p a, button  {
+.our-journey .our-p a,
+.our-p-btn {
     top: 50%;
     width: 350px;
     height: 50px;
@@ -386,14 +388,15 @@ body {
     border-radius: 950px;
 }
 
-.Testimonials .card .card-1 h4, h5 {
+.Testimonials .card .card-1 h4,
+h5 {
     /* text-align: center; */
     margin-left: 110px;
     padding: 10px;
     font-size: 15px;
 }
 
-.Testimonials .card .card-1  h5 {
+.Testimonials .card .card-1 h5 {
     /* text-align: center; */
     margin-left: 120px;
     padding: 10px;
@@ -410,7 +413,7 @@ body {
     position: relative;
     /* color: white; */
     top: 260%;
-    
+
 
 }
 
@@ -441,8 +444,16 @@ body {
 .next-cohort p {
     padding: 20px;
     font-size: 13px;
-    
 
+
+}
+
+.next-cohort .nextCohort-btn1 {
+    width: 350px;
+    height: 50px;
+    background-color: #B74FDD;
+    color: white;
+    font-size: 16px;
 }
 
 .next-cohort h2 {
@@ -469,11 +480,13 @@ body {
     padding: 30px;
 }
 
-.faqs > div, .faqs1 {
+.faqs>div,
+.faqs1 {
     margin-top: 30px;
 }
 
-faqs > div, a {
+faqs>div,
+a {
     /* padding: 20px; */
     /* margin-top: 50px; */
     text-decoration: none;
@@ -498,11 +511,18 @@ faqs > div, a {
     top: 310%;
     color: white;
     text-align: center;
-    
+
 }
 
-.Subscribe h2, p{
+.Subscribe h2,
+p {
     padding: 20px;
+
+}
+
+.Subscribe h2 {
+    font-size: 35px;
+
 
 }
 
@@ -518,8 +538,141 @@ faqs > div, a {
 }
 
 .Subscribe .btn-sub {
-     width: 50%;
+    width: 50%;
     text-align: center;
     padding: 10px;
     border: 1px solid #B74FDD;
+}
+
+.Subscribe .btn-sub {
+    width: 50%;
+    height: 50px;
+    background-color: #B74FDD;
+    color: white;
+    font-size: 16px;
+}
+
+.joinOur-com {
+    position: relative;
+    top: 350%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.joinOur-com h2 {
+    font-size: 35px;
+}
+
+.joinOur-com .joinOur-logoimg {
+    border: 1px solid purple;
+    background: rgb(36, 35, 36);
+    border-radius: 4000%;
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    /* text-align: center; */
+    align-items: center;
+    margin-left: 590px;
+
+}
+
+.joinOur-com .joinOur-com-imgs {
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.joinOur-com .joinOur-btn {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.joinOur-com .joinOur-btn .joinOur-btn1 {
+    width: 230px;
+    height: 45px;
+    background-color: #B74FDD;
+    color: white;
+    font-size: 16px;
+}
+
+.min-footer {
+    position: relative;
+    top: 356%;
+    color: white;
+    margin: 30px;
+}
+
+.min-footer img {
+    margin-left: 80px;
+}
+
+.min-footer-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 90%;
+    padding: 20px;
+
+}
+
+.min-footer-nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+
+}
+
+
+
+.min-footer-btn {
+    display: flex;
+    justify-content: space-around;
+    /* gap: 40px; */
+    /* margin-left: 400px; */
+
+
+    
+}
+
+.min-footer-nav-btn1 {
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    bottom: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid purple;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(65, 62, 62);
+    background: rgb(36, 35, 35);
+    height: 60px;
+    padding: 20px 20px 2px;
+    margin: 20px;
+    
+}
+
+.icon1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px;
+}
+
+.icon-text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-text p {
+    color: #777679;
 }
